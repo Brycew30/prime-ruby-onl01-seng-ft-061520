@@ -1,4 +1,7 @@
 def prime?(number)
- return false if number < 2 
- (2..n/2).none?{int| number % int == 0}
+ if number < 2 
+   false
+ else
+   (2..n/2).none?
+ end
 end
