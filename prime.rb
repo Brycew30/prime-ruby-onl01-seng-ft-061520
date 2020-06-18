@@ -5,5 +5,6 @@ def prime?(number)
    (2..n/2).none?{int| number % int == 0}
     true
  elsif number == 2
+   true
  end
 end
